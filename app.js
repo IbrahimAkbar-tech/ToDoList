@@ -114,6 +114,7 @@ app.post("/delete", function(req, res){
 
 });
 
+//heroku port
 let port = process.env.PORT;
 if (port == null || port == "") {
   port = 3000;
