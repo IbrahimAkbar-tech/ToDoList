@@ -1,4 +1,4 @@
-This is locally hosted.
+Hosted via Heroku/MongoDB Atlas
 
 PROJECT:
 
