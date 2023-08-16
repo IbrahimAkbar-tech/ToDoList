@@ -10,7 +10,7 @@ app.use(express.static("public"));
 
 app.set('view engine', 'ejs');
 
-mongoose.connect("mongodb+srv://admin-ibrahim:test123@cluster0.c433h.mongodb.net/todolistDB", {useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true, useFindAndModify: false});
+mongoose.connect("mongodb+srv://admin-user:pass@cluster0.c433h.mongodb.net/todolistDB", {useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true, useFindAndModify: false});
 
 const itemsSchema = new mongoose.Schema({name: String});
 
